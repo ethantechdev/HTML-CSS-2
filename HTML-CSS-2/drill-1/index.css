@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    background-color: darkslategray;
+    height: 200px;
+    width: 100%;
+    z-index: 3;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    background-color: darkslategray;
+    height: 13%;
+    width: 100%;
+    z-index: 0;
+}
+
+.leftdiv {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    background-color:grey;
+    z-index: 2;
+}
+
+.rightdiv{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 200px;
+    background-color:grey;
+    z-index: 2;
+    
+}

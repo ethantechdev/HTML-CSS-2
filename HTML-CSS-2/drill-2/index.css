@@ -1,0 +1,68 @@
+.firstsection {
+    border-style: solid;
+    color: black;
+    height: 250px;
+    margin: 40px;
+}
+
+.secondsection {
+    border-style: dashed;
+    color: black;
+    height: 280px;
+    margin: 40px;
+}
+
+.thirdsection {
+    border-style: solid;
+    color: black;
+    height: 280px;
+    width: 40%;
+    margin: auto;
+    box-shadow: 6px 6px 4px 2px black;
+}
+
+#purplerectangle {
+    position: relative;
+    background-color: purple;
+    top: 40px;
+    left: 40px;
+    height: 200px;
+    width: 65px;
+}
+
+#greenrectangle {
+    position: relative;
+    background-color: green;
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    top: -70%;
+}
+
+#bluecircle {
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    top: 53px;
+    right: 110px;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+
+#yellowrectangle {
+    position: relative;
+    background-color: lightyellow;
+    height: 230px;
+    width: 630px;
+    top: 20px;
+    margin: auto;
+    box-shadow: 10px 10px 10px 2px black;
+}
+
+p {
+    position:relative;
+    text-align: center;
+    top: 20px;
+    font-size: 60px;
+    color: black;
+}
